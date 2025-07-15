@@ -78,16 +78,23 @@ p
     cursor: pointer;
     border-color: darkorange;
 }
-.social
-{
+.social {
     display: flex;
     gap: 20px;
 }
-.social img{
-    
+
+.social a img {
+    width: 35px;
+    height: auto;
     transition: all 0.4s ease;
     cursor: pointer;
+    display: inline-block;
 }
+
+.social a img:hover {
+    transform: scale(0.9);
+}
+
 .social>:nth-child(1)
 {
     width: 35px;
@@ -100,10 +107,7 @@ p
 {
     width: 35px;
 }
-.social img:hover
-{
-    transform: scale(0.9);
-}
+
 @media(max-width:1024px)
 {
     .sec1
