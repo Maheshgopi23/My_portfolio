@@ -59,6 +59,7 @@ p
     color: white;
     cursor: pointer;
     transition: .4s ease;
+    text-decoration: none;
 }
 .btns >:nth-child(2)
 {
