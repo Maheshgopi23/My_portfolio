@@ -62,21 +62,7 @@ a:hover
 {
     position: relative;
 }
-.arrow
-{
-    position: absolute;
-    right: 30px;
-    bottom: 0;
-}
-.arrow2
-{
-    transform: rotate(180deg);
-    bottom: 50px;
-}
-.arrow img
-{
-    width: 40px;
-}
+
 @media(min-width:1025px)
 {
     @keyframes appear
