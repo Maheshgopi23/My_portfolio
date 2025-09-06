@@ -8,6 +8,7 @@
     gap: 75px;
     margin-bottom: 100px;
     margin-top: -75px;
+    color: white;
 }
 .sec-3-1
 {
@@ -23,7 +24,7 @@
 .box2
 {
     width: 400px;
-    border: 2px solid black;
+    border: 2px solid aqua;
     display: flex;
     flex-direction: column;
     align-items: center;

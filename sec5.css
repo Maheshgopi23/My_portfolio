@@ -7,6 +7,7 @@
     height: 60vh;
     padding-top: 100px;
     justify-content: end;
+    color: white;
 }
 .sec-5-1
 {
@@ -23,34 +24,45 @@
     display: flex;
     align-items: center;
     gap: 30px;
-    border: 2px solid black;
+    border: 2px solid aqua;
     padding: 25px;
     border-radius: 30px;
     margin-bottom: 100px;
 }
-.a1,.a2
-{
+.sec-5-2 a {
     display: flex;
     align-items: center;
     gap: 10px;
+    color: aqua;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.5s ease;
 }
 
-.a1 img
-{
-    width: 30px;
+.sec-5-2 a i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid aqua;
+    border-radius: 50%;
+    background-color: transparent;
+    transition: transform 0.5s ease, border-color 0.5s ease;
+    font-size: 22px;
 }
-.a2 img
-{
-    width: 30px;
+
+.sec-5-2 a span {
+    color: white;
+    transition: transform 0.5s ease, color 0.5s ease;
 }
-.a1 span,.a2 span
+
+.sec-5-2 a:hover i,
+.sec-5-2 a:hover span
 {
-    font-weight: 600;
-}
-.sec-5-2 :hover{
     transform: scale(0.9);
-    transition: 0.5s ease;
 }
+
 @media(max-width:767px)
 {
     .sec-5-2

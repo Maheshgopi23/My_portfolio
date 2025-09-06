@@ -5,6 +5,7 @@
     align-items: center;
     gap: 60px;
     margin-top: 5%;
+    color: white;
 }
 .sec-1-1
 {
@@ -28,7 +29,7 @@
 h1
 {
     font-size: 40px;
-    color: darkorange;
+    color: aqua;
 }
 .sec-1-2-3
 {
@@ -52,61 +53,59 @@ p
     border-radius: 20px;
     font-size: 15px;
     font-weight: 600;
-    border: 2px solid black;
+    border: 2px solid aqua;
+    color: white;
 }
 .btns >:nth-child(1):hover{
-    background-color: black;
-    color: white;
+    background-color: aqua;
+    border: 2px solid white;
+    color: black;
     cursor: pointer;
-    transition: .4s ease;
+    transition: .8s ease;
     text-decoration: none;
 }
 .btns >:nth-child(2)
 {
     padding: 10px 20px;
-    background-color: black;
+    background-color: transparent;
     border-radius: 20px;
     font-size: 15px;
     font-weight: 600;
-    border: 2px solid black;
+    border: 2px solid aqua;
     color: white;
 }
 .btns >:nth-child(2):hover
 {
-    background-color: darkorange;
+    background-color: aqua;
     color: black;
-    transition: .4s ease;
+    transition: .8s ease;
     cursor: pointer;
-    border-color: darkorange;
+    border: 2px solid white;
+    text-decoration: none;
 }
-.social {
+
+.social
+{
     display: flex;
-    gap: 20px;
+    position: absolute;
+    bottom: 20px;
+    width: 100px;
+    color: aqua;
+    justify-content: space-between;
 }
-
-.social a img {
-    width: 35px;
-    height: auto;
-    transition: all 0.4s ease;
-    cursor: pointer;
-    display: inline-block;
-}
-
-.social a img:hover {
-    transform: scale(0.9);
-}
-
-.social>:nth-child(1)
+.social a
 {
-    width: 35px;
-}
-.social>:nth-child(2)
-{
-    width: 35px;
-}
-.social>:nth-child(3)
-{
-    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid aqua;
+    border-radius: 50%;
+    font-size: 20px;
+    color: aqua;
+    text-decoration: none;
 }
 
 @media(max-width:1024px)
@@ -172,5 +171,12 @@ p
     {
         align-items: center;
         justify-content: center;
+    }
+    .social {
+        position: static;
+        margin-top: 30px;
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
     }
 }
