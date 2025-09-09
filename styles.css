@@ -52,7 +52,6 @@ a{
 .menu-bar li a:hover
 {
     color: aqua;
-    text-decoration: underline;
     text-underline-offset: 10px;
     text-decoration-color: aqua;
 }
